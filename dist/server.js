@@ -8,5 +8,5 @@ var routes_1 = require("./routes");
 var app = (0, express_1["default"])();
 app.use(express_1["default"].json());
 app.use(routes_1.routes);
-app.listen(80);
+app.listen(443);
 //# sourceMappingURL=server.js.map
