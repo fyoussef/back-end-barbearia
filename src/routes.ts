@@ -2,6 +2,6 @@ import { Router } from "express";
 
 export const routes = Router()
 
-routes.get('/api/', (req, res) => {
+routes.get('/', (req, res) => {
   res.json({msg: 'Rodando'})
 })
